@@ -1,0 +1,185 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: auto;
+}
+ header{
+    background-color: #f1f1f1;
+    }
+header nav img{
+    width:60%;
+    height:100px;
+}
+nav ul li{
+    color:white;
+}
+.dropdown{
+    display: inline-block;
+    position: relative;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    background-color: #f9f9f9;
+}
+.dropdown-content a{
+    color:black;
+    padding: 12px 10px;
+    display: block;
+    text-decoration: none;
+    border-bottom: 1px solid grey;
+}
+.dropdown-content a:hover{
+    background-color: lightblue;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+    background-color: white; 
+}
+.animate-ride{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.animate-ride div{
+    animation-iteration-count: infinite;
+}
+h2{
+animation-delay: 0.5s;
+}
+h6{
+animation-delay:1s;
+}
+button{
+animation-delay: 1.5s;
+}
+.animate-ride a{
+    text-decoration: none;
+    color: white;
+}
+.animate-ride button:hover{
+    background-color: #6384e9;
+}
+.animate-ride h2 , .animate-ride h6{
+    margin-bottom: 30px;
+} 
+.carousel-inner i    mg{
+    width:100%;
+}
+.carousel-control-prev-icon button , .carousel-control-next-prev button{
+    color:black;
+}
+.content h1, .team h1 , .client h1 , .service h1 {
+font-size: 36px;
+    font-style:italic;
+    font-weight:500;
+    margin-bottom: 50px;
+}
+.content p, .team p , .about p , .service ul li{
+    font-style: normal;
+    font-size:20px;
+    font-weight: 400;
+    ;
+}
+.foot p , .foot ul li {
+    font-style: normal;
+    font-size:17px;
+    font-weight: 400;
+    ;
+}
+.content-info div, .team div{
+    text-align: justify;
+}
+.content-info a{
+    color:white;
+    text-decoration: none;
+}
+.content , .client{
+    background-color: #f1f1f1;
+}
+.foot ul li{
+    display: block;
+    padding: 10px; 
+}
+.foot 
+{
+    background-color:black;
+    color:white;
+    font-style: normal;
+    }
+    .detail{
+        text-align: justify;
+        padding: 20px;
+    }
+.list , .address , .reach{
+    padding: 20px;
+}
+.list ul li a{
+    text-decoration: none;
+    color: white;
+}
+.list a:hover{
+    color: #6384e9;
+}
+.content button:hover{
+    background-color: #6384e9;
+}
+.foot h5{
+    font-style: italic;
+    font-size: x-large;
+    }
+.foot h6{
+    color:rgb(242, 255, 0);
+}
+.about .line, .service .border-line{
+    box-shadow: 0px 0px 0px 1px grey;
+margin:80px;    
+padding: 20px;
+}
+.about h5{
+    color:red;
+    font-style: italic;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.contact h5{
+    color:red;
+}
+.contact i{
+    color:blue;
+}
+.contact h3{
+    color:darkblue;
+}
+.contact div{
+    border-radius: 3%;
+}
+.copy{
+    background-color: #6384e9;
+    color:white;
+}
+.service h4{
+    font-size: 20px;
+    font-style:italic;
+    font-weight:500;
+    margin-bottom: 30px;
+ color:red;
+}
+.content img:hover{
+    transform:scale(1.1);
+    transition-duration: 2s;
+}
+.team img:hover{
+    transform:scale(1.1);
+    transition-duration: 2s;
+}
+.client img:hover{
+    transform:scale(1.1);
+    transition-duration: 2s;
+}
+.client{
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
